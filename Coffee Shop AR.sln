@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{CD21E2C3-4376-F4DB-A947-C9D9B572D239}") = "Coffee Shop AR", "Assembly-CSharp.csproj", "{3146D69E-02EA-AB85-2DB5-848AAAF98D3E}"
+EndProject
+Project("{CD21E2C3-4376-F4DB-A947-C9D9B572D239}") = "Coffee Shop AR", "Assembly-CSharp-Editor.csproj", "{3CB4000C-9337-2CAD-7D17-9C8C5C74E133}"
+EndProject
+Project("{CD21E2C3-4376-F4DB-A947-C9D9B572D239}") = "Coffee Shop AR", "Assembly-UnityScript-Editor-firstpass.unityproj", "{94E9EC85-E05E-59C4-EAA3-E0239D8C7A82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3146D69E-02EA-AB85-2DB5-848AAAF98D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3146D69E-02EA-AB85-2DB5-848AAAF98D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3146D69E-02EA-AB85-2DB5-848AAAF98D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3146D69E-02EA-AB85-2DB5-848AAAF98D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB4000C-9337-2CAD-7D17-9C8C5C74E133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB4000C-9337-2CAD-7D17-9C8C5C74E133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB4000C-9337-2CAD-7D17-9C8C5C74E133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB4000C-9337-2CAD-7D17-9C8C5C74E133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E9EC85-E05E-59C4-EAA3-E0239D8C7A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E9EC85-E05E-59C4-EAA3-E0239D8C7A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E9EC85-E05E-59C4-EAA3-E0239D8C7A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E9EC85-E05E-59C4-EAA3-E0239D8C7A82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
