@@ -15,6 +15,6 @@ public class TotalCost : MonoBehaviour {
 
 	void Update() {
 		BillingScript bs = billingObject.GetComponent<BillingScript> ();
-		text.text = "Total Cost -> Rs. " + bs.totalCost;
+		text.text = "Total Cost: Rs. " + bs.totalCost;
 	}
 }

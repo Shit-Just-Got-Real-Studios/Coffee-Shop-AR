@@ -33,11 +33,11 @@ public class BillingScript : MonoBehaviour {
 		int i = 0;
 		while (i < boughtItems.Count * 3) {
 			ItemScript tempitem = boughtItems[j].GetComponent<ItemScript> ();
-			itemInfo [i].transform.position = new Vector3 (rft.transform.position.x - 50, rft.transform.position.y - (j) * 30, rft.transform.position.z);
+			itemInfo [i].transform.position = new Vector3 (rft.transform.position.x - 50, rft.transform.position.y - (j) * (150/boughtItems.Count), rft.transform.position.z);
 			itemInfo [i].text = "" + tempitem.itemName;
-			itemInfo [i + 1].transform.position = new Vector3 (rft.transform.position.x + 200, rft.transform.position.y - (j) * 30, rft.transform.position.z);
+			itemInfo [i + 1].transform.position = new Vector3 (rft.transform.position.x + 200, rft.transform.position.y - (j) * (150/boughtItems.Count), rft.transform.position.z);
 			itemInfo [i + 1].text = "" + tempitem.itemQuantity;
-			itemInfo [i + 2].transform.position = new Vector3 (rft.transform.position.x + 400, rft.transform.position.y - (j) * 30 , rft.transform.position.z);
+			itemInfo [i + 2].transform.position = new Vector3 (rft.transform.position.x + 400, rft.transform.position.y - (j) * (150/boughtItems.Count) , rft.transform.position.z);
 			itemInfo [i + 2].text = "" + tempitem.itemCost;
 			j++;
 			i += 3;
