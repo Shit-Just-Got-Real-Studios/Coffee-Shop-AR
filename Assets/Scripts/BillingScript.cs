@@ -12,8 +12,7 @@ public class BillingScript : MonoBehaviour {
 	public GameObject currentItem;
 	public List<GameObject> boughtItems;
 	public List<Text> itemInfo;
-	public Text t1, t2, t3, rft;
-	public Transform canvasTransform;
+	public Text rft;
 	public List<Text> textPrefabs;
 	public void AddQuantity() {
 		ItemScript item = currentItem.GetComponent<ItemScript> ();
